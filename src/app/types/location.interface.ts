@@ -1,4 +1,4 @@
-export interface location {
+export interface Location {
   id: number,
   title: string,
   content: string,
@@ -7,10 +7,10 @@ export interface location {
   towel: string,
   fountain: string,
   locker_room: string,
-  schedules: Schedule[];
+  schedules: Schedule[]
 }
 
 interface Schedule {
   weekdays: string,
-  hour: string;
+  hour: string
 }
